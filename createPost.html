@@ -1,0 +1,44 @@
+ <!--
+ File: createPost.html
+ Author: Thomas Zhang
+ Class: IS 448
+ Assignment: HW3
+ Description: HTML page for creating blog posts containing a tile, blog text, tags, and submission and reset nuttons.
+ -->
+ 
+ 
+ <!DOCTYPE html>
+<html lang="EN">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title> Create blog post </title>
+	<link rel="stylesheet" type="text/css" href="https://swe.umbc.edu/~thomasz1/is448/HW/HW3/entrydesign.css" />
+  </head>
+  
+  <body>
+  
+ <form name ="blog" action = "createBlog.php" method="POST">
+  
+  <h1> Create Blog Post </h1>
+  <br><br>
+  <label for="title"> Title: </label>
+  <input type="text" id="title" name="title" size="20">
+  <br>
+  
+  <label for="postEntry"> Post: </label>
+  <textarea id="postEntry" name="postEntry" rows="10" cols="50" > </textarea>
+ 
+  <br>
+  <label for="tags"> Tag: </label>
+   <input type="text" id="tags" name="tags">
+   
+   
+   <br><br><br>
+   <input type="submit" value ="Submit Blog" />
+   <input type="reset" value ="Reset" />
+  </form>
+  
+
+  
+  </body>
+  </html>

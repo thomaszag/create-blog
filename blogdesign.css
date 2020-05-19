@@ -1,0 +1,43 @@
+/*
+ File: blogdesign.css
+ Author: Thomas Zhang
+ Class: IS 448
+ Assignment: HW3
+ Description: CSS Page for the design of createBlog.php
+*/
+ 
+body 
+{ 
+font-size: 14pt; 
+font-family: "Tahoma", Geneva, sans-serif; 
+color: white;
+background-color: #035096; 
+width: 1000px; 
+margin: 10px;
+}
+
+.display {
+    width: 700px;
+	height: 500px;
+    margin: 10px;
+	overflow: auto;
+    background-color: #D3D3D3;
+	color: black;
+    border: 5px black solid;
+    padding: 1.0em;
+	
+}
+
+h2
+{
+	font-size: 16pt; 
+	font-family: "Tahoma", Geneva, sans-serif; 			
+}
+
+button
+{
+	font-size: 12pt;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+}
